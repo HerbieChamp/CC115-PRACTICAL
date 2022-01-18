@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins', sans-serif;
+}
+body{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    min-height:100vh;
+    background: #fcfaeb;
+}
+.container{
+    position:relative;
+    display:flex;
+    justify-content: space-around;
+    align-items:center;
+    flex-wrap:wrap;
+    width:1400px;
+}
+.container .card{
+    width:460px;
+    margin:20px;
+    padding:40px 30px;
+    background: #cecab1;
+    border-radius:40px;
+    box-shadow:-6px -6px 20px rgba(255,255,255,1), 6px 6px 20px rgba(0,0,0,0.1);
+}
+.container .card .imgBx{
+    position:relative;
+}
+.container .card .imgBx img{
+    max-width:120px;
+    border-radius:27%;
+    box-shadow:-10px -10px 20px rgb(255,255,255), 10px 10px 20px(0 0 0/18%);
+}
+.container .card .contentBx{
+    position:relative;
+    margin-top:20px;
+    text-align:center;
+    margin-bottom: 20px;
+}
+.container .card .contentBx h2,h2{
+    color:#1a6b2f;
+    font-weight:700;
+    font-size:1.4rem;
+    letter-spacing:2px;
+}
+.contentBx p{
+    text-align: justify;
+}
+.btn{
+    outline:none;
+    border:none;
+    width:10rem;
+    height:3rem;
+    border-radius:0.5rem;
+    box-shadow:.3rem .3rem .6rem #c8d0e7,
+    -.2rem -.2rem .5rem #fff;
+    text-align:center;
+    justify-self:center;
+    align-items: center;
+    justify-content: center;
+    cursor:pointer;
+    transition:.3s ease;
+    color:#a4d0f0;
+}
+.slider{
+    align-self:center;
+    display:flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+.segment{
+    display:flex;
+    position:absolute;
+    top:0;
+    right:0px;
+}
+
+.segments{
+    display:flex;
+    position:absolute;
+    top:70px;
+    right:0px;
+}
+button{
+    border:none;
+    outline:none;
+    width:50px;
+    height:50px;
+    font-weight:bold;
+    box-shadow:-2px -2px 5px #fff,2px 2px 5px #BABECC;
+    transition:all 0.2s ease-in-out;
+    cursor:pointer;
+    font-weight:600;
+    margin:4px;
+}
+button:active{
+    box-shadow:inset 1px 1px 2px #BABECC, inset -1px -1px 2px #fff;
+}
+i{
+    font-size:30px;
+    font-weight:500;
+    color:#1a6b2f;
+}
